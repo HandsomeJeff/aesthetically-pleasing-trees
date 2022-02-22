@@ -1,6 +1,6 @@
 # aesthetically-pleasing-trees
 
-##Question
+## Question
 Jimmy owns a garden in which he has planted N trees in a row. After a few years, the trees have grown up and now they have different heights.
 
 Jimmy pays much attention to the aesthetics of his garden. He finds his trees aesthetically pleasing if they alternately increase and decrease in height (..., shorter, taller, shorter, taller, ...).
@@ -40,7 +40,7 @@ Examples:
     ●	each element of array A is an integer within the range [1..1,000].
 
 
-##Solution
+## Solution
 Check `/calculations/tree.go` for solution.
 
 First check tree list to see if they are already aesthetically pleasing (0).
@@ -51,7 +51,7 @@ Since performance is not an issue, we can afford to do O(n^2) time.
 
 
 
-###Tests
+### Tests
 Go to `/calculations` directory and run
 
 ```
